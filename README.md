@@ -21,7 +21,7 @@ They call this the "Content Mesh". You can bring it in from various sites and no
 - Optimizes and lazy-loads assets
 - lets developers keep control. (vs. create-react-app, for ex.)
 
-### Note to self
+### Notes to self
 
 New React fragment cool:
 
@@ -30,6 +30,17 @@ New React fragment cool:
 component
 </>
 ```
+
+To observe data -
+
+```
+{posts.map((post) => (
+  <pre>{JSON.stringify(post, null, 2)}</pre>
+))}
+
+```
+
+Rather than extraneous divs.
 
 ### Custom hooks to retrieve GraphQL data
 
