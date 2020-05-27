@@ -16,5 +16,14 @@
   "bugs": {
     "url": "https://github.com/joeldmyers/gatsby-review/issues"
   },
-  "homepage": "https://github.com/joeldmyers/gatsby-review#readme"
+  "homepage": "https://github.com/joeldmyers/gatsby-review#readme",
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "prettier": "^2.0.5"
+  },
+  "dependencies": {
+    "gatsby": "^2.22.11",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
 }
