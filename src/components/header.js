@@ -6,10 +6,14 @@ import { Link } from "gatsby";
 const NavLink = styled(Link)`
   color: #222;
   font-size: 1rem;
-  font-weight: normal;
+  font-weight: ${(props) => props.fontWeight || "normal"};
   line-height: 1;
   margin: 0 0.5rem 0 0;
   text-decoration: none;
+
+  &.current-page {
+    border-bottom: 2px solid #222;
+  }
 `;
 
 const Header = () => (
@@ -29,8 +33,15 @@ const Header = () => (
         margin-top: 0;
       `}
     >
-      <NavLink to="/">Home</NavLink>
-      <NavLink to="/about">About</NavLink>
+      <NavLink to="/" activeClassName="current-page" fontWeight="bold">
+        My Blog!
+      </NavLink>
+      <NavLink to="/" activeClassName="current-page">
+        Home
+      </NavLink>
+      <NavLink to="/about" activeClassName="current-page">
+        About
+      </NavLink>
     </nav>
   </header>
 );
