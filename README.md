@@ -13,3 +13,9 @@ They claim that "the monolithic CMS is dying..." I dunno.  Headless, etc.  I get
 He notes there is headless WordPress. Obviously Contentful is another example.  
 
 They call this the "Content Mesh". You can bring it in from various sites and normalize it all.  
+
+## Details
+
+- Follows PRPL pattern
+- **Generates only static assets - no server required**
+- Optimizes and lazy-loads assets
