@@ -1,0 +1,20 @@
+{
+  "name": "gatsby-review",
+  "version": "1.0.0",
+  "description": "Review of Gatsby - following along from FEM class \"Introduction to Gatsby\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joeldmyers/gatsby-review.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joeldmyers/gatsby-review/issues"
+  },
+  "homepage": "https://github.com/joeldmyers/gatsby-review#readme"
+}
