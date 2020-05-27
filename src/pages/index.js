@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 import Layout from "../components/layout";
+import Hero from "../components/hero";
 import PostPreview from "../components/post-preview";
 import usePosts from "../hooks/use-posts";
 
@@ -8,6 +9,7 @@ export default () => {
   const posts = usePosts();
   return (
     <>
+      <Hero />
       <Layout>
         <Link to="/about">About</Link>
         <h2>Read my Blog</h2>
