@@ -33,10 +33,12 @@
     "@mdx-js/mdx": "^1.6.4",
     "@mdx-js/react": "^1.6.4",
     "gatsby": "^2.22.11",
+    "gatsby-background-image": "^1.1.1",
     "gatsby-mdx": "^1.0.0",
     "gatsby-plugin-mdx": "^1.2.12",
     "gatsby-plugin-react-helmet": "^3.3.2",
     "gatsby-source-filesystem": "^2.3.8",
+    "gatsby-transformer-sharp": "^2.5.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-helmet": "^6.0.0"
