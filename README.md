@@ -2,6 +2,12 @@
 
 Review of Gatsby - following along from FEM class "Introduction to Gatsby"
 
+## Big Picture
+
+Gatsby is chill
+
+## Some more notes
+
 Gatsby removes boilerplate for getting started and deploying app.
 
 Gatsby is an orchestration layer for taming the content mesh and its many sources of data.
@@ -23,7 +29,7 @@ They call this the "Content Mesh". You can bring it in from various sites and no
 
 ### Notes to self
 
-New React fragment cool:
+New React fragment - cool feature / shorthand:
 
 ```
 <>
@@ -40,7 +46,14 @@ To observe data -
 
 ```
 
+I wish they hadn't named it `result.panic`. (in gatsby-node.js file). Stressful naming!
+
 Rather than extraneous divs.
+
+- Kill port process if issue \*
+
+`kill -9 $(lsof -t -i tcp:8000)`
+Note: sometimes app asks to restart and then gets hung up. So this lets you kill Gatsby process and then you can start over.
 
 ### Custom hooks to retrieve GraphQL data
 
