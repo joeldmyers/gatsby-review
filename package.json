@@ -35,7 +35,7 @@
     "gatsby": "^2.22.11",
     "gatsby-background-image": "^1.1.1",
     "gatsby-mdx": "^1.0.0",
-    "gatsby-plugin-mdx": "^1.2.12",
+    "gatsby-plugin-mdx": "^2.14.1",
     "gatsby-plugin-react-helmet": "^3.3.2",
     "gatsby-source-filesystem": "^2.3.8",
     "gatsby-transformer-sharp": "^2.5.3",
